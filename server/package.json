@@ -4,7 +4,7 @@
   "description": "Backend API pour l'application de gestion de stock",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev": "npx nodemon src/index.js",
     "start": "node src/index.js",
     "seed": "node src/database/seeders/index.js"
   },
